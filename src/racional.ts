@@ -43,6 +43,7 @@ namespace numeros {
         }
         
         dispHtml(): void {
+            document.writeln("El resultado es = "+ "<br>");
             document.writeln(this.n+"/"+this.d+"<br>");
         }
 
